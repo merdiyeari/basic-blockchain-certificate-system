@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basit Sertifika Doğrulama</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .box { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        input, button { padding: 8px; margin: 5px 0; width: 100%; box-sizing: border-box; }
+        button { background: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background: #45a049; }
+        #result { margin-top: 10px; padding: 10px; background: #f5f5f5; }
+    </style>
+</head>
+<body>
+    <h1>Blockchain Sertifika Sistemi</h1>
+    
+    <div class="box">
+        <button id="connectBtn">🔗 MetaMask'e Bağlan</button>
+        <p id="walletInfo"></p>
+    </div>
+    
+    <div class="box">
+        <h2>Yeni Sertifika Ekle</h2>
+        <input type="text" id="name" placeholder="Ad Soyad">
+        <input type="text" id="course" placeholder="Kurs Adı">
+        <input type="text" id="org" placeholder="Kurum Adı">
+        <button id="addBtn">➕ Sertifika Ekle</button>
+        <p id="addStatus"></p>
+    </div>
+    
+    <div class="box">
+        <h2>Sertifika Doğrula</h2>
+        <input type="number" id="certId" placeholder="Sertifika Numarası">
+        <button id="verifyBtn">🔍 Doğrula</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
