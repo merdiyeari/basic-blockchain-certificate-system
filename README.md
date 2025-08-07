@@ -1,64 +1,53 @@
-📜 Blockchain Sertifika Doğrulama Sistemi
-Proje Hakkında
-Bu proje, sertifikaların blockchain teknolojisi ile güvenli şekilde kaydedilip doğrulanabilmesini sağlayan bir uygulamadır. Ethereum Sepolia test ağı üzerinde çalışmaktadır.
+📜 **Blockchain Certificate Verification System**
 
-Temel Özellikler
-✅ MetaMask ile güvenli bağlantı
+### About the Project
 
-✅ Sertifika kayıt sistemi (ID, isim, not, kurs adı)
+This project is an application that enables certificates to be securely recorded and verified using blockchain technology. It runs on the Ethereum Sepolia test network.
 
-✅ ID ile sertifika sorgulama
+### Key Features
 
-✅ Blockchain'in değiştirilemez kayıt avantajı
+✅ Secure connection with MetaMask
+✅ Certificate registration system (ID, name, grade, course name)
+✅ Certificate query by ID
+✅ Immutable record advantage of blockchain
+✅ Simple and user-friendly interface
 
-✅ Basit ve kullanıcı dostu arayüz
+### Technologies Used
 
-Kullanılan Teknolojiler
-Solidity (Akıllı kontratlar)
+* Solidity (Smart Contracts)
+* Web3.js (Blockchain communication)
+* HTML/CSS/JavaScript (Frontend)
+* Ethereum Sepolia Test Network
 
-Web3.js (Blockchain iletişimi)
+### How to Run
 
-HTML/CSS/JavaScript (Arayüz)
+1. Install the MetaMask browser extension
+2. Get free test ETH from the Sepolia Faucet
+3. Open the `index.html` file in your browser
+4. Connect MetaMask (make sure you are connected to the Sepolia network)
 
-Ethereum Sepolia Test Network
+### Usage
 
-🛠 Teknoloji Stack'i
-Teknoloji	Açıklama
-https://img.shields.io/badge/Solidity-%2523363636.svg?style=for-the-badge&logo=solidity&logoColor=white	Akıllı kontrat geliştirme
-https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white	Blockchain ile iletişim
-https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white	Sepolia Test Network
-https://img.shields.io/badge/html5-%2523E34F26.svg?style=for-the-badge&logo=html5&logoColor=white	Frontend yapısı
-https://img.shields.io/badge/css3-%25231572B6.svg?style=for-the-badge&logo=css3&logoColor=white	Arayüz tasarımı
-https://img.shields.io/badge/javascript-%2523323330.svg?style=for-the-badge&logo=javascript&logoColor=%2523F7DF1E	İşlevsellik
+**Add Certificate:**
 
+* Enter a unique ID
+* Add student name, grade, and course information
+* Click the "Save" button to record it on the blockchain
 
-Nasıl Çalıştırılır?
-MetaMask eklentisini yükleyin
+**Verify Certificate:**
 
-Sepolia Faucet'ten ücretsiz test ETH'si alın
+* Enter the certificate ID you want to verify
+* Click the "Verify" button
+* View the stored information on the blockchain
 
-index.html dosyasını tarayıcıda açın
+### 📬 Contact
 
-MetaMask ile bağlanın (Sepolia ağına bağlı olduğundan emin olun)
+For any questions about the project:
+✉️ [merdiyeari@gmail.com](mailto:merdiyeari@gmail.com)
+🔗 [www.linkedin.com/in/merdiye-ari](https://www.linkedin.com/in/merdiye-ari)
 
-Kullanım
-Sertifika Ekleme:
+### Developer Note
 
-Benzersiz bir ID girin
+This project was developed to demonstrate the use of blockchain technology in the field of certificate verification. All records are stored on the Ethereum Sepolia test network.
 
-Öğrenci adı, not ve kurs bilgilerini ekleyin
-
-"Kaydet" butonuna basarak blockchain'e kaydedin
-
-Sertifika Sorgulama:
-
-Doğrulamak istediğiniz sertifika ID'sini girin
-
-"Sorgula" butonuna basın
-
-Blockchain'de kayıtlı bilgileri görüntüleyin
-
-Geliştirici Notu
-Bu proje, blockchain teknolojisinin sertifika doğrulama alanındaki uygulamalarını göstermek için geliştirilmiştir. Tüm kayıtlar Ethereum Sepolia test ağında saklanır.
-
-Not: Proje dosyalarını GitHub'a yüklerken contractAddress ve contractABI bilgilerini kendi kontratınıza göre güncellemeyi unutmayın.
+**Note:** When uploading the project files to GitHub, don't forget to update the `contractAddress` and `contractABI` according to your own smart contract.
