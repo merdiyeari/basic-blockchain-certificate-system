@@ -40,6 +40,9 @@ This project is an application that enables certificates to be securely recorded
 * Click the "Verify" button
 * View the stored information on the blockchain
 
+ ![screenshot](https://github.com/user-attachments/assets/7ab8fddf-3fe7-4ef4-8d11-bf5bb6b019c3)
+ 
+
 ### 📬 Contact
 
 For any questions about the project:
